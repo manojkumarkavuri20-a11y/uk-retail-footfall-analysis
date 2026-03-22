@@ -45,7 +45,7 @@ This project analyses the structural decline in UK high street retail footfall u
 | D3 | [Process Flow Diagrams](.) | PNG / SVG | Current-state & future-state swimlane process maps |
 | D4 | [Interactive Dashboard](D4_UK_Retail_Dashboard.jsx) | React / JSX | ONS data dashboard with 6 chart views, KPI cards, sector toggles |
 | D5 | [Findings & Recommendations](D5_Findings_Recommendations.docx) | Word | 5 data-grounded recommendations with effort/timeline/metric |
-| D6 | Stakeholder Presentation | PowerPoint | 11-slide leadership summary deck |
+| D6 | [Stakeholder Presentation](D6_Stakeholder_Presentation.pptx) | PowerPoint | 11-slide leadership summary deck |
 
 ### D3 — Process Flow Diagrams
 
