@@ -40,22 +40,22 @@ This project analyses the structural decline in UK high street retail footfall u
 
 | # | Deliverable | Format | Description |
 |---|---|---|---|
-| D1 | [Problem Statement & Business Case](deliverables/D1_Problem_Statement_Business_Case.docx) | Word | Business problem definition, stakeholder analysis, objectives |
-| D2 | [Requirements Document](deliverables/D2_Requirements_Document.docx) | Word | MoSCoW-prioritised functional, non-functional & data requirements |
-| D3 | [Process Flow Diagrams](deliverables/) | PNG / SVG | Current-state & future-state swimlane process maps |
-| D4 | [Interactive Dashboard](deliverables/D4_UK_Retail_Dashboard.jsx) | React / JSX | ONS data dashboard with 6 chart views, KPI cards, sector toggles |
-| D5 | [Findings & Recommendations](deliverables/D5_Findings_Recommendations.docx) | Word | 5 data-grounded recommendations with effort/timeline/metric |
+| D1 | [Problem Statement & Business Case](D1_Problem_Statement_Business_Case.docx) | Word | Business problem definition, stakeholder analysis, objectives |
+| D2 | [Requirements Document](D2_Requirements_Document.docx) | Word | MoSCoW-prioritised functional, non-functional & data requirements |
+| D3 | [Process Flow Diagrams](.) | PNG / SVG | Current-state & future-state swimlane process maps |
+| D4 | [Interactive Dashboard](D4_UK_Retail_Dashboard.jsx) | React / JSX | ONS data dashboard with 6 chart views, KPI cards, sector toggles |
+| D5 | [Findings & Recommendations](D5_Findings_Recommendations.docx) | Word | 5 data-grounded recommendations with effort/timeline/metric |
 | D6 | Stakeholder Presentation | PowerPoint | 11-slide leadership summary deck |
 
 ### D3 — Process Flow Diagrams
 
 **Current State** — How decisions are currently made (pain points highlighted)
 
-![Current State Process Flow](images/currentstatepreview.png)
+![Current State Process Flow](D3_Current_State_Process_Flow.png)
 
 **Future State** — Data-driven decision framework
 
-![Future State Process Flow](images/futurestatepreview.png)
+![Future State Process Flow](D3_Future_State_Process_Flow.png)
 
 ---
 
@@ -86,8 +86,7 @@ This project analyses the structural decline in UK high street retail footfall u
 ## BA Lifecycle Covered
 
 ```
-Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
-      → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
+Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be) → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
 ```
 
 ---
@@ -105,7 +104,7 @@ Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
 ## Author
 
 **Manoj Kumar Kavuri** — MSc International Business Management (Distinction)  
-Business Analysis | Data Analysis | UK Retail Domain Knowledge  
+Business Analysis | Data Analysis | UK Retail Domain Knowledge
 
 ---
 
