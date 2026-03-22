@@ -1,0 +1,207 @@
+<svg viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1F4E79"/>
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="820" fill="#FAFBFD"/>
+
+  <!-- Title Block -->
+  <rect x="0" y="0" width="1100" height="70" fill="#1F4E79"/>
+  <text x="550" y="32" text-anchor="middle" fill="white" font-size="18" font-weight="bold">CURRENT-STATE PROCESS FLOW</text>
+  <text x="550" y="55" text-anchor="middle" fill="#B8D4E8" font-size="13">How Mid-Size Retailers Currently Make Footfall &amp; Staffing Decisions</text>
+
+  <!-- Legend -->
+  <rect x="30" y="85" width="200" height="25" rx="4" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+  <text x="40" y="102" font-size="10" fill="#2E7D32">Start / End</text>
+  <rect x="250" y="85" width="200" height="25" rx="0" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1"/>
+  <text x="260" y="102" font-size="10" fill="#1565C0">Process Step</text>
+  <polygon points="575,85 625,97.5 575,110 525,97.5" fill="#FFF8E1" stroke="#F9A825" stroke-width="1"/>
+  <text x="640" y="102" font-size="10" fill="#F57F17">Decision</text>
+  <rect x="750" y="85" width="200" height="25" rx="0" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="760" y="102" font-size="10" fill="#C62828">Pain Point / Gap</text>
+
+  <!-- Swimlanes -->
+  <rect x="30" y="125" width="1040" height="115" fill="#F0F4F8" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="45" y="185" font-size="11" font-weight="bold" fill="#1F4E79" transform="rotate(-90 45 185)">Store Manager</text>
+
+  <rect x="30" y="240" width="1040" height="115" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="45" y="305" font-size="11" font-weight="bold" fill="#1F4E79" transform="rotate(-90 45 305)">Area Manager</text>
+
+  <rect x="30" y="355" width="1040" height="115" fill="#F0F4F8" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="45" y="418" font-size="11" font-weight="bold" fill="#1F4E79" transform="rotate(-90 45 418)">Head Office</text>
+
+  <rect x="30" y="470" width="1040" height="115" fill="white" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="45" y="533" font-size="11" font-weight="bold" fill="#1F4E79" transform="rotate(-90 45 533)">Finance</text>
+
+  <!-- Row 1: Store Manager -->
+  <!-- Start -->
+  <rect x="80" y="155" width="120" height="40" rx="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="140" y="179" text-anchor="middle" font-size="11" fill="#2E7D32">Week Begins</text>
+
+  <!-- Process 1 -->
+  <rect x="240" y="150" width="145" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="312" y="172" text-anchor="middle" font-size="10" fill="#1565C0">Observe store</text>
+  <text x="312" y="186" text-anchor="middle" font-size="10" fill="#1565C0">traffic informally</text>
+
+  <!-- Pain Point 1 -->
+  <rect x="235" y="205" width="155" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="312" y="221" text-anchor="middle" font-size="9" fill="#C62828">No footfall counter data</text>
+
+  <!-- Decision 1 -->
+  <polygon points="530,175 590,150 650,175 590,200" fill="#FFF8E1" stroke="#F9A825" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="590" y="173" text-anchor="middle" font-size="10" fill="#F57F17">Feels</text>
+  <text x="590" y="185" text-anchor="middle" font-size="10" fill="#F57F17">busy?</text>
+
+  <!-- Yes/No labels -->
+  <text x="660" y="170" font-size="10" fill="#4CAF50" font-weight="bold">Yes</text>
+  <text x="590" y="218" font-size="10" fill="#C62828" font-weight="bold">No</text>
+
+  <!-- Process 2 (Yes path) -->
+  <rect x="700" y="150" width="140" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="770" y="172" text-anchor="middle" font-size="10" fill="#1565C0">Keep current</text>
+  <text x="770" y="186" text-anchor="middle" font-size="10" fill="#1565C0">rota unchanged</text>
+
+  <!-- Process 3 (No path to row 2) -->
+  <rect x="480" y="270" width="150" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="555" y="292" text-anchor="middle" font-size="10" fill="#1565C0">Escalate concern</text>
+  <text x="555" y="306" text-anchor="middle" font-size="10" fill="#1565C0">to Area Manager</text>
+
+  <!-- Row 2: Area Manager -->
+  <rect x="700" y="270" width="150" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="775" y="287" text-anchor="middle" font-size="10" fill="#1565C0">Review multiple</text>
+  <text x="775" y="301" text-anchor="middle" font-size="10" fill="#1565C0">stores anecdotally</text>
+
+  <!-- Pain Point 2 -->
+  <rect x="695" y="325" width="160" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="775" y="341" text-anchor="middle" font-size="9" fill="#C62828">No cross-store comparison</text>
+
+  <!-- Row 2 decision -->
+  <polygon points="225,295 285,270 345,295 285,320" fill="#FFF8E1" stroke="#F9A825" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="285" y="293" text-anchor="middle" font-size="10" fill="#F57F17">Trend</text>
+  <text x="285" y="305" text-anchor="middle" font-size="10" fill="#F57F17">clear?</text>
+
+  <text x="355" y="290" font-size="10" fill="#4CAF50" font-weight="bold">Yes</text>
+  <text x="285" y="338" font-size="10" fill="#C62828" font-weight="bold">No</text>
+
+  <!-- Row 3: Head Office -->
+  <rect x="160" y="385" width="155" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="237" y="407" text-anchor="middle" font-size="10" fill="#1565C0">Request ad-hoc</text>
+  <text x="237" y="421" text-anchor="middle" font-size="10" fill="#1565C0">sales report from IT</text>
+
+  <!-- Pain Point 3 -->
+  <rect x="155" y="440" width="165" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="237" y="456" text-anchor="middle" font-size="9" fill="#C62828">2-3 week turnaround</text>
+
+  <rect x="400" y="385" width="155" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="477" y="407" text-anchor="middle" font-size="10" fill="#1565C0">Make staffing /</text>
+  <text x="477" y="421" text-anchor="middle" font-size="10" fill="#1565C0">promo decision</text>
+
+  <!-- Pain Point 4 -->
+  <rect x="390" y="440" width="175" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="477" y="456" text-anchor="middle" font-size="9" fill="#C62828">Based on outdated data</text>
+
+  <!-- Decision: Approve budget? -->
+  <polygon points="690,410 750,385 810,410 750,435" fill="#FFF8E1" stroke="#F9A825" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="750" y="408" text-anchor="middle" font-size="10" fill="#F57F17">Budget</text>
+  <text x="750" y="420" text-anchor="middle" font-size="10" fill="#F57F17">impact?</text>
+
+  <text x="820" y="405" font-size="10" fill="#4CAF50" font-weight="bold">Yes</text>
+  <text x="750" y="453" font-size="10" fill="#C62828" font-weight="bold">No</text>
+
+  <!-- Row 4: Finance -->
+  <rect x="830" y="500" width="155" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="907" y="522" text-anchor="middle" font-size="10" fill="#1565C0">Review P&amp;L for</text>
+  <text x="907" y="536" text-anchor="middle" font-size="10" fill="#1565C0">affected stores</text>
+
+  <rect x="600" y="500" width="160" height="50" rx="4" fill="#E3F2FD" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="680" y="522" text-anchor="middle" font-size="10" fill="#1565C0">Approve / reject</text>
+  <text x="680" y="536" text-anchor="middle" font-size="10" fill="#1565C0">based on cost only</text>
+
+  <!-- Pain Point 5 -->
+  <rect x="595" y="555" width="170" height="25" rx="3" fill="#FFEBEE" stroke="#C62828" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="680" y="571" text-anchor="middle" font-size="9" fill="#C62828">No footfall ROI analysis</text>
+
+  <!-- End -->
+  <rect x="350" y="505" width="160" height="40" rx="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="430" y="529" text-anchor="middle" font-size="11" fill="#2E7D32">Decision Implemented</text>
+
+  <!-- ARROWS -->
+  <line x1="200" y1="175" x2="238" y2="175" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="385" y1="175" x2="530" y2="175" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="650" y1="175" x2="698" y2="175" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- No path down from decision 1 -->
+  <line x1="590" y1="200" x2="590" y2="240" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="590" y1="240" x2="555" y2="240" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="555" y1="240" x2="555" y2="268" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Escalate to Area Manager review -->
+  <line x1="630" y1="295" x2="698" y2="295" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Area Manager to decision -->
+  <line x1="700" y1="295" x2="500" y2="295" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="480" y1="295" x2="345" y2="295" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- No from trend clear - down to head office -->
+  <line x1="285" y1="320" x2="285" y2="370" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="285" y1="370" x2="237" y2="370" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="237" y1="370" x2="237" y2="383" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Yes from trend clear - to staffing decision -->
+  <line x1="345" y1="295" x2="370" y2="295" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="370" y1="295" x2="370" y2="410" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="370" y1="410" x2="398" y2="410" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Head office report to decision -->
+  <line x1="315" y1="410" x2="398" y2="410" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Staffing decision to budget check -->
+  <line x1="555" y1="410" x2="688" y2="410" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Budget yes to finance -->
+  <line x1="810" y1="410" x2="907" y2="410" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="907" y1="410" x2="907" y2="498" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Finance review to approve -->
+  <line x1="830" y1="525" x2="762" y2="525" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Approve to end -->
+  <line x1="600" y1="525" x2="512" y2="525" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- No budget - straight to end -->
+  <line x1="750" y1="435" x2="750" y2="470" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="750" y1="470" x2="430" y2="470" stroke="#1F4E79" stroke-width="1.5"/>
+  <line x1="430" y1="470" x2="430" y2="503" stroke="#1F4E79" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Summary Box -->
+  <rect x="30" y="610" width="1040" height="195" rx="8" fill="white" stroke="#C62828" stroke-width="2"/>
+  <rect x="30" y="610" width="1040" height="35" rx="8" fill="#C62828"/>
+  <rect x="30" y="630" width="1040" height="15" fill="#C62828"/>
+  <text x="550" y="633" text-anchor="middle" fill="white" font-size="13" font-weight="bold">KEY PAIN POINTS IN CURRENT STATE</text>
+
+  <circle cx="60" cy="670" r="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="60" y="674" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">1</text>
+  <text x="80" y="674" font-size="11" fill="#333">No quantitative footfall data — decisions rely on manager intuition and anecdotal observation</text>
+
+  <circle cx="60" cy="700" r="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="60" y="704" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">2</text>
+  <text x="80" y="704" font-size="11" fill="#333">No cross-store or cross-sector benchmarking — each store operates in isolation</text>
+
+  <circle cx="60" cy="730" r="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="60" y="734" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">3</text>
+  <text x="80" y="734" font-size="11" fill="#333">Ad-hoc reporting with 2–3 week turnaround — decisions are made on stale information</text>
+
+  <circle cx="60" cy="760" r="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="60" y="764" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">4</text>
+  <text x="80" y="764" font-size="11" fill="#333">Finance approvals based on cost only — no footfall-to-revenue ROI framework exists</text>
+
+  <circle cx="60" cy="790" r="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5"/>
+  <text x="60" y="794" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">5</text>
+  <text x="80" y="794" font-size="11" fill="#333">Seasonal staffing adjustments are reactive rather than planned against known patterns</text>
+
+  <!-- Footer -->
+  <text x="550" y="815" text-anchor="middle" font-size="9" fill="#999">D3 — Process Flow Diagram (Current State) | BA Portfolio Project | March 2026</text>
+</svg>
