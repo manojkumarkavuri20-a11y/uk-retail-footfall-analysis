@@ -110,3 +110,13 @@ Business Analysis | Data Analysis | UK Retail Domain Knowledge
 
 *D3 — Process Flow Diagram (Current & Future State) | BA Portfolio Project | March 2026*  
 *Data: ONS Retail Sales Index, Jan 2017 – Jan 2026*
+
+
+---
+
+## Changelog
+
+### 24 March 2026
+- Reviewed and validated ONS Retail Sales Index data for accuracy
+- Updated project documentation to reflect final analysis scope
+- Confirmed dashboard interactivity across all retail sub-sectors
