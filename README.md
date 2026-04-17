@@ -1,10 +1,7 @@
 # UK Retail Footfall Analysis
 ### BA Portfolio Project — Data-Driven Footfall & Staffing Decision Framework for Mid-Size Retailers
 
-![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Portfolio-1F4E79?style=flat-square)
-![Data Source](https://img.shields.io/badge/Data-ONS%20Retail%20Sales%20Index-2E75B6?style=flat-square)
-![Coverage](https://img.shields.io/badge/Coverage-Jan%202017%20–%20Jan%202026-green?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
+[![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Portfolio-1F4E79?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Data Source](https://img.shields.io/badge/Data-ONS%20Retail%20Sales%20Index-2E75B6?style=flat-square)](https://www.ons.gov.uk/) [![Coverage](https://img.shields.io/badge/Coverage-Jan%202017%20%E2%80%93%20Jan%202026-green?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis)
 
 ---
 
@@ -30,9 +27,21 @@ This project analyses the structural decline in UK high street retail footfall u
 | Department Stores | 111.5 | 100.5 | -5.5% |
 
 - **Headline recovery masks structural shift** — total retail growth is almost entirely driven by online channels
-- **Household goods** has the steepest sustained decline (-9.7% vs 2019 average), with pandemic-era surge fully corrected
-- **Non-store retail growth has decelerated** — settling at ~18% above pre-pandemic levels, not continuing to accelerate
+- **Household goods** has the steepest sustained decline (-9.7% vs 2019 average)
+- **Non-store retail growth has decelerated** — settling at ~18% above pre-pandemic levels
 - **March is consistently the peak month** across non-food sub-sectors; January and August are the troughs
+
+---
+
+## D3 — Process Flow Diagrams
+
+### Current State — How decisions are currently made (pain points highlighted)
+
+![Current State Process Flow](D3_Current_State_Process_Flow.png)
+
+### Future State — Data-driven decision framework
+
+![Future State Process Flow](D3_Future_State_Process_Flow.png)
 
 ---
 
@@ -42,20 +51,10 @@ This project analyses the structural decline in UK high street retail footfall u
 |---|---|---|---|
 | D1 | [Problem Statement & Business Case](D1_Problem_Statement_Business_Case.docx) | Word | Business problem definition, stakeholder analysis, objectives |
 | D2 | [Requirements Document](D2_Requirements_Document.docx) | Word | MoSCoW-prioritised functional, non-functional & data requirements |
-| D3 | [Process Flow Diagrams](.) | PNG / SVG | Current-state & future-state swimlane process maps |
+| D3 | [Process Flow Diagrams](D3_Current_State_Process_Flow.png) | PNG / SVG | Current-state & future-state swimlane process maps |
 | D4 | [Interactive Dashboard](D4_UK_Retail_Dashboard.jsx) | React / JSX | ONS data dashboard with 6 chart views, KPI cards, sector toggles |
 | D5 | [Findings & Recommendations](D5_Findings_Recommendations.docx) | Word | 5 data-grounded recommendations with effort/timeline/metric |
 | D6 | [Stakeholder Presentation](D6_Stakeholder_Presentation.pptx) | PowerPoint | 11-slide leadership summary deck |
-
-### D3 — Process Flow Diagrams
-
-**Current State** — How decisions are currently made (pain points highlighted)
-
-![Current State Process Flow](D3_Current_State_Process_Flow.png)
-
-**Future State** — Data-driven decision framework
-
-![Future State Process Flow](D3_Future_State_Process_Flow.png)
 
 ---
 
@@ -71,23 +70,22 @@ This project analyses the structural decline in UK high street retail footfall u
 
 ---
 
+## BA Lifecycle Covered
+
+```
+Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be) → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
+```
+
+---
+
 ## Data Source
 
 - **Dataset:** ONS Retail Sales Index (Dataset ID: DRSI)
 - **Measure:** Chained volume of retail sales, seasonally adjusted, indexed to 2019 = 100
 - **Coverage:** January 2017 – January 2026 (109 monthly observations)
 - **Geography:** Great Britain (England, Scotland, Wales)
-- **Classification:** SIC 2007 retail sub-sectors
-- **Source:** [ons.gov.uk](https://www.ons.gov.uk) — downloaded March 2026
+- **Source:** [ons.gov.uk](https://www.ons.gov.uk/) — downloaded March 2026
 - **Status:** ONS Accredited Official Statistic
-
----
-
-## BA Lifecycle Covered
-
-```
-Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be) → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
-```
 
 ---
 
@@ -106,11 +104,9 @@ Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
 **Manoj Kumar Kavuri** — MSc International Business Management (Distinction)  
 Business Analysis | Data Analysis | UK Retail Domain Knowledge
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojkumarkavuri/) [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat-square&logo=github)](https://github.com/manojkumarkavuri20-a11y)
 
-*D3 — Process Flow Diagram (Current & Future State) | BA Portfolio Project | March 2026*  
-*Data: ONS Retail Sales Index, Jan 2017 – Jan 2026*
-
+> Open to Business Analyst, Operations Analyst, and Market Analyst roles across the UK.
 
 ---
 
