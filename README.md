@@ -3,8 +3,6 @@
 
 [![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Portfolio-1F4E79?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Data Source](https://img.shields.io/badge/Data-ONS%20Retail%20Sales%20Index-2E75B6?style=flat-square)](https://www.ons.gov.uk/) [![Coverage](https://img.shields.io/badge/Coverage-Jan%202017%20%E2%80%93%20Jan%202026-green?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis)
 
----
-
 ## Project Overview
 
 This project analyses the structural decline in UK high street retail footfall using publicly available ONS Retail Sales Index data (January 2017 – January 2026). It delivers a complete Business Analysis lifecycle — from problem definition to stakeholder-ready recommendations — demonstrating how mid-size non-food retailers can make data-driven decisions on staffing, store portfolio, and promotional investment.
@@ -12,8 +10,6 @@ This project analyses the structural decline in UK high street retail footfall u
 **Problem:** Mid-size UK non-food retailers lack a clear, data-driven framework for understanding how footfall decline varies by sub-sector and time period, and what operational adjustments would most effectively protect in-store revenue.
 
 **Solution:** A full BA project covering requirements, process mapping, interactive dashboard, and actionable recommendations grounded in 109 months of ONS data.
-
----
 
 ## Key Findings
 
@@ -31,8 +27,6 @@ This project analyses the structural decline in UK high street retail footfall u
 - **Non-store retail growth has decelerated** — settling at ~18% above pre-pandemic levels
 - **March is consistently the peak month** across non-food sub-sectors; January and August are the troughs
 
----
-
 ## D3 — Process Flow Diagrams
 
 ### Current State — How decisions are currently made (pain points highlighted)
@@ -42,8 +36,6 @@ This project analyses the structural decline in UK high street retail footfall u
 ### Future State — Data-driven decision framework
 
 ![Future State Process Flow](D3_Future_State_Process_Flow.png)
-
----
 
 ## Deliverables
 
@@ -56,8 +48,6 @@ This project analyses the structural decline in UK high street retail footfall u
 | D5 | [Findings & Recommendations](D5_Findings_Recommendations.docx) | Word | 5 data-grounded recommendations with effort/timeline/metric |
 | D6 | [Stakeholder Presentation](D6_Stakeholder_Presentation.pptx) | PowerPoint | 11-slide leadership summary deck |
 
----
-
 ## Recommendations Summary
 
 | # | Recommendation | Effort | Timeline | Primary Benefit |
@@ -68,15 +58,11 @@ This project analyses the structural decline in UK high street retail footfall u
 | 4 | Shift promotional spend from January to March | Medium | Next planning cycle | Revenue uplift |
 | 5 | Implement monthly ONS dashboard monitoring | Low | Immediate | Evidence-based decisions |
 
----
-
 ## BA Lifecycle Covered
 
 ```
 Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be) → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
 ```
-
----
 
 ## Data Source
 
@@ -87,8 +73,6 @@ Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
 - **Source:** [ons.gov.uk](https://www.ons.gov.uk/) — downloaded March 2026
 - **Status:** ONS Accredited Official Statistic
 
----
-
 ## Tech Stack
 
 - **Data:** ONS open data (CSV)
@@ -97,18 +81,14 @@ Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
 - **Process Diagrams:** draw.io (PNG + SVG)
 - **Version Control:** Git / GitHub
 
----
-
 ## Author
 
-**Manoj Kumar Kavuri** — MSc International Business Management (Distinction)  
+**Manoj Kumar Kavuri** — MSc International Business Management (Distinction)
 Business Analysis | Data Analysis | UK Retail Domain Knowledge
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojkumarkavuri/) [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat-square&logo=github)](https://github.com/manojkumarkavuri20-a11y)
 
 > Open to Business Analyst, Operations Analyst, and Market Analyst roles across the UK.
-
----
 
 ## Changelog
 
