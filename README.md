@@ -1,13 +1,17 @@
-# UK Retail Footfall Analysis
-### BA Portfolio Project — Data-Driven Footfall & Staffing Decision Framework for Mid-Size Retailers
+# UK Retail Sales & Category Performance Analysis
+### BA Portfolio Project — Data-Driven Staffing & Category Decision Framework for Mid-Size Retailers
+
+> **Self-initiated portfolio project using public ONS data. Scenario is illustrative (a mid-size non-food retailer), not a real client engagement.**
 
 [![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Portfolio-1F4E79?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Data Source](https://img.shields.io/badge/Data-ONS%20Retail%20Sales%20Index-2E75B6?style=flat-square)](https://www.ons.gov.uk/) [![Coverage](https://img.shields.io/badge/Coverage-Jan%202017%20%E2%80%93%20Jan%202026-green?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis) [![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)](https://github.com/manojkumarkavuri20-a11y/uk-retail-footfall-analysis)
 
 ## Project Overview
 
-This project analyses the structural decline in UK high street retail footfall using publicly available ONS Retail Sales Index data (January 2017 – January 2026). It delivers a complete Business Analysis lifecycle — from problem definition to stakeholder-ready recommendations — demonstrating how mid-size non-food retailers can make data-driven decisions on staffing, store portfolio, and promotional investment.
+This project analyses structural change in UK retail using publicly available ONS Retail Sales Index data (January 2017 – January 2026). It delivers a complete Business Analysis lifecycle — from problem definition to stakeholder-ready recommendations — demonstrating how mid-size non-food retailers can make data-driven decisions on staffing, store portfolio, and promotional investment.
 
-**Problem:** Mid-size UK non-food retailers lack a clear, data-driven framework for understanding how footfall decline varies by sub-sector and time period, and what operational adjustments would most effectively protect in-store revenue.
+Note on scope: the ONS Retail Sales Index measures sales volume, not footfall. Sales volume is used here as a proxy for in-store demand; it does not measure the number of visits to a store directly.
+
+**Problem:** Mid-size UK non-food retailers lack a clear, data-driven framework for understanding how sales performance varies by sub-sector and time period, and what operational adjustments would most effectively protect in-store revenue.
 
 **Solution:** A full BA project covering requirements, process mapping, interactive dashboard, and actionable recommendations grounded in 109 months of ONS data.
 
@@ -21,6 +25,8 @@ This project analyses the structural decline in UK high street retail footfall u
 | Household Goods | 111.0 | 104.0 | **-9.7%** |
 | Non-Store (Online) | 81.0 | 113.7 | **+18.1%** |
 | Department Stores | 111.5 | 100.5 | -5.5% |
+
+All comparisons are against the 2019 annual average (chained volume, seasonally adjusted, 2019 = 100), not a single month, to avoid seasonal distortion.
 
 - **Headline recovery masks structural shift** — total retail growth is almost entirely driven by online channels
 - **Household goods** has the steepest sustained decline (-9.7% vs 2019 average)
@@ -57,6 +63,8 @@ This project analyses the structural decline in UK high street retail footfall u
 | 3 | Prioritise store portfolio review for department store formats | High | 3–6 months | Cost avoidance / exit |
 | 4 | Shift promotional spend from January to March | Medium | Next planning cycle | Revenue uplift |
 | 5 | Implement monthly ONS dashboard monitoring | Low | Immediate | Evidence-based decisions |
+
+Recommendations were developed against an illustrative mid-size retailer scenario, to test the analysis against a realistic decision — not a real client engagement.
 
 ## BA Lifecycle Covered
 
