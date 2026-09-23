@@ -1,5 +1,5 @@
 # UK Retail Sales & Category Performance Analysis
-### BA Portfolio Project — Data-Driven Staffing & Category Decision Framework for Mid-Size Retailers
+### BA Portfolio Project - Data-Driven Staffing & Category Decision Framework for Mid-Size Retailers
 
 > **Self-initiated portfolio project using public ONS data. Scenario is illustrative (a mid-size non-food retailer), not a real client engagement.**
 
@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project analyses structural change in UK retail using publicly available ONS Retail Sales Index data (January 2017 – January 2026). It delivers a complete Business Analysis lifecycle — from problem definition to stakeholder-ready recommendations — demonstrating how mid-size non-food retailers can make data-driven decisions on staffing, store portfolio, and promotional investment.
+This project analyses structural change in UK retail using publicly available ONS Retail Sales Index data (January 2017 - January 2026). It covers a full Business Analysis lifecycle - from problem definition to stakeholder-ready recommendations - showing how mid-size non-food retailers can make data-driven decisions on staffing, store portfolio, and promotional investment.
 
 Note on scope: the ONS Retail Sales Index measures sales volume, not footfall. Sales volume is used here as a proxy for in-store demand; it does not measure the number of visits to a store directly.
 
@@ -28,18 +28,18 @@ Note on scope: the ONS Retail Sales Index measures sales volume, not footfall. S
 
 All comparisons are against the 2019 annual average (chained volume, seasonally adjusted, 2019 = 100), not a single month, to avoid seasonal distortion.
 
-- **Headline recovery masks structural shift** — total retail growth is almost entirely driven by online channels
+- **Total retail growth is almost entirely driven by online channels**, not in-store recovery
 - **Household goods** has the steepest sustained decline (-9.7% vs 2019 average)
-- **Non-store retail growth has decelerated** — settling at ~18% above pre-pandemic levels
+- **Non-store retail growth has decelerated** - settling at ~18% above pre-pandemic levels
 - **March is consistently the peak month** across non-food sub-sectors; January and August are the troughs
 
-## D3 — Process Flow Diagrams
+## D3 - Process Flow Diagrams
 
-### Current State — How decisions are currently made (pain points highlighted)
+### Current State - How decisions are currently made (pain points highlighted)
 
 ![Current State Process Flow](D3_Current_State_Process_Flow.png)
 
-### Future State — Data-driven decision framework
+### Future State - Data-driven decision framework
 
 ![Future State Process Flow](D3_Future_State_Process_Flow.png)
 
@@ -58,27 +58,27 @@ All comparisons are against the 2019 annual average (chained volume, seasonally 
 
 | # | Recommendation | Effort | Timeline | Primary Benefit |
 |---|---|---|---|---|
-| 1 | Align staffing rotas to seasonal ONS data | Low | 1–2 months | Labour cost reduction |
+| 1 | Align staffing rotas to seasonal ONS data | Low | 1-2 months | Labour cost reduction |
 | 2 | Benchmark household goods performance to 2019 baseline (not 2021) | Medium | 1 month | Accurate target-setting |
-| 3 | Prioritise store portfolio review for department store formats | High | 3–6 months | Cost avoidance / exit |
+| 3 | Prioritise store portfolio review for department store formats | High | 3-6 months | Cost avoidance / exit |
 | 4 | Shift promotional spend from January to March | Medium | Next planning cycle | Revenue uplift |
 | 5 | Implement monthly ONS dashboard monitoring | Low | Immediate | Evidence-based decisions |
 
-Recommendations were developed against an illustrative mid-size retailer scenario, to test the analysis against a realistic decision — not a real client engagement.
+Recommendations were developed against an illustrative mid-size retailer scenario, to test the analysis against a realistic decision - not a real client engagement.
 
 ## BA Lifecycle Covered
 
 ```
-Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be) → Data Analysis → Dashboard Build → Findings & Recommendations → Stakeholder Presentation
+Problem Definition -> Requirements (MoSCoW) -> Process Mapping (As-Is / To-Be) -> Data Analysis -> Dashboard Build -> Findings & Recommendations -> Stakeholder Presentation
 ```
 
 ## Data Source
 
 - **Dataset:** ONS Retail Sales Index (Dataset ID: DRSI)
 - **Measure:** Chained volume of retail sales, seasonally adjusted, indexed to 2019 = 100
-- **Coverage:** January 2017 – January 2026 (109 monthly observations)
+- **Coverage:** January 2017 - January 2026 (109 monthly observations)
 - **Geography:** Great Britain (England, Scotland, Wales)
-- **Source:** [ons.gov.uk](https://www.ons.gov.uk/) — downloaded March 2026
+- **Source:** [ons.gov.uk](https://www.ons.gov.uk/) - downloaded March 2026
 - **Status:** ONS Accredited Official Statistic
 
 ## Tech Stack
@@ -91,7 +91,7 @@ Problem Definition → Requirements (MoSCoW) → Process Mapping (As-Is / To-Be)
 
 ## Author
 
-**Manoj Kumar Kavuri** — MSc International Business Management (Distinction)
+**Manoj Kumar Kavuri** - MSc International Business Management (Distinction)
 Business Analysis | Data Analysis | UK Retail Domain Knowledge
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojkumarkavuri/) [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat-square&logo=github)](https://github.com/manojkumarkavuri20-a11y)
